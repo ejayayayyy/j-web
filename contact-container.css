@@ -1,0 +1,216 @@
+.contact-container{
+    display: flex;
+    height: 680px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*containers*/
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact-logo-container{
+    display: flex;
+    height: 80px;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 3px solid rgb(167, 209, 41);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact-logo-text{
+    display: flex;
+    height: 80px;
+    width: 500px;
+    align-items: center; 
+}
+
+.contact-description-container{
+    display: flex;
+    flex-direction: column;
+    height: 560px;
+    flex: 1;
+}
+
+.contact-logo-picture-container{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.contact-picture-border{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.contact-description{
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1{
+    display: flex;
+    height: 156px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 156px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.row3{
+    display: flex;
+    height: 156px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.phone-logo-container, .gmail-logo-container, .linkedIn-logo-container{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    border-radius: 75px;
+}
+
+.phone-logo, .gmail-logo, .linkedIn-logo{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.phone-info-container, .linkedIn-info-container{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 800px;
+}
+
+.gmail-info-container{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 800px;
+}
+
+.phone-title,.linkedIn-title{
+    display: flex;
+    height: 45px;
+    justify-content: start;
+    align-items: center;
+    padding-left: 12px;
+    border-bottom: 3px solid rgb(167, 209, 41);
+}
+
+.gmail-title{
+    display: flex;
+    height: 45px;
+    justify-content: end;
+    align-items: center;  
+    padding-right: 12px; 
+    border-bottom: 3px solid rgb(167, 209, 41); 
+}
+
+.phone-context,.linkedIn-context{
+    display: flex;
+    height: 85px;
+    padding-left: 12px;
+    padding-right: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gmail-context{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 85px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.contact-now-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border: 2px solid rgb(167, 209, 41);
+    background-color: transparent;
+    color: rgb(167, 209, 41);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color .15s ease;
+    transition: scale .15s;
+    
+}
+
+.contact-now-button:hover{
+    background-color:rgb(167, 209, 41) ;
+    color: rgb(30,30,30);
+    scale: 1.1;
+    font-weight: 600;
+}
+
+.contact-now-button:active{
+    opacity: .8;
+}
+
+
+/*texts*/
+.logo-text{
+    color: rgb(167, 209, 41);
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.contact-logo-properties{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.phone-title-properties, .gmail-title-properties, .linkedIn-title-properties{
+    color: rgb(167, 209, 41) ;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+}
+
+.phone-text, .gmail-text, .linkedIn-text{
+    display: flex;
+    color: white;
+    font-size: 18px;
+}
+

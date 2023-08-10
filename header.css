@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    position: fixed;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: black;
+}
+
+/*logos*/
+.logo-container{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*menus*/
+.menus{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+}
+
+.home, .about, .contact{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text, .about-text, .contact-text{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-text:hover, .about-text:hover, .contact-text:hover{
+    color: rgb(167, 209, 41);
+    cursor: pointer;
+    font-size: 16px;
+}

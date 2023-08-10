@@ -1,0 +1,133 @@
+.dashboard-container{
+    padding-top: 140px;
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*containers*/
+.description-container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 900px;
+    margin-right: 50px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 80px;
+}
+
+.description-text{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    height: 146px;
+}
+
+.picture-container{
+    display: flex;
+    height: 700px;
+    width: 600px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: start;
+    padding-top: 50px;
+}
+
+.border{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+}
+
+.border img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: box-shadow 0.6s ease-in-out;
+    transition: transform 0.6s ease;
+}
+
+.border img:hover{
+    box-shadow: 0 10px 74px rgba(167, 209, 41, 0.2);
+    transform: scale(1.15);
+}
+
+.logos-container{
+    display: flex;
+    height: 56px;
+    width: 400px;
+    justify-content: start;
+    align-items: start;
+}
+
+.logo1-container,.logo2-container,.logo3-container{
+    height: 56px;
+    width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.logo1-container img, .logo2-container img, .logo3-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.logo1-container img:hover, .logo2-container img:hover, .logo3-container img:hover{
+    transform: scale(1.2);
+}
+
+
+/*texts*/
+.title-context{
+    display: flex;
+    text-align: center;
+    font-size: 46px;
+}
+
+.mod1{
+    color: rgb(167, 209, 41);
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.description-context{
+    display: flex;
+    flex: 1;
+    font-size: 20px;
+    font-weight: 100;
+    width: 700px;
+    line-height: 28px;
+    padding-top: 15px;
+}
+
+.picture{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 200px;
+    transition: transform 0.6s;
+}
+
+.html-logo, .css-logo, .js-logo{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
